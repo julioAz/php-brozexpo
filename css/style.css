@@ -396,6 +396,35 @@ footer li a p {
     margin-top: 100px;
 }
 
+.credits {
+    padding: 10px 0;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: -1px -3px 5px -3px #0003;
+    box-shadow: -1px -3px 5px -3px #0003;
+  }
+  .credits .powered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .icon.heart {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 6px;
+    background: url(/img/mk-icon-heart.svg) no-repeat 0 0;
+  }
+  .icon.milkshake {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 0 6px;
+    background: url(/img/mk-icon.svg) no-repeat 0 0;
+    background-size: contain;
+  }
+  
+
 .modal#contatoModalSucesso .modal-header .sucess-form i {
     color: #d3e60b;
     font-size: 46px;

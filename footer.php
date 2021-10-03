@@ -45,6 +45,15 @@
                 </div>
             </div>
         </div>
+        <div class="credits mk-width-100">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p class="powered mk-powered">Mixed with <i class="icon heart"></i> by <a href="#" alt="Milkshake Branding &amp; Design" title="Milkshake Branding &amp; Design"><i class="icon milkshake"></i></a></p>
+              </div>
+            </div>  
+          </div>
+        </div>
     </footer>
     
     <div class="modal fade" id="cafeAurea" tabindex="-1" aria-labelledby="cafeAurea" aria-hidden="true">
