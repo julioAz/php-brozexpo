@@ -1,0 +1,118 @@
+
+<?php get_header(); ?>
+
+    <!-- Main -->
+    <main>
+        <section class="container-fluid container-destaque">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <h1>High quality Brazilian food products.</h1>
+                    <p>We are committed to our international customers to offer high quality products, which respect the best environmental, administrative and social practices.</p>
+                    <a class="btn btn-primary btn-brz" href="#contatoModal" href="#contatoModal" data-bs-toggle="modal" data-bs-target="#contatoModal">Call to action</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container container-inicio-produtos">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <h2>VITRINE BRASIL is the holder of the trademark BRZ EXPO and it has in its administrative staff professionals with extensive experience in business management and international trade. In 2021, we will be proud to present the following selection of products:</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h2 class="d-none">See our brands</h2>
+                <div class="img-text" id="products">
+                    <div class="text col-12 col-lg-5 offset-lg-1">
+                        <h3>Café
+                            <span class="d-block">
+                                Aurea
+                            </span>
+                        </h3>
+                        <p>One of the winning products of the CUP OF EXCELLENCE 2020 Award, promoted by APEX-BRASIL, the Brazilian Export Agency, recognized as one of the best coffees produced in Brazil. With Café AUREA, we will participate in some of the main food fairs in the world. <a href="#cafeAurea" data-bs-toggle="modal" data-bs-target="#cafeAurea">Saiba mais →</a> </p>
+                        <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                    </div>
+                    <div class="img col-12 col-lg-5 offset-lg-1">
+                        <img class="img-fluid" src="/img/aurea-home.png" alt="Café Aurea" >
+                    </div>
+                </div>
+                <div class="img-text inverted">
+                    <div class="text col-12 col-lg-5 offset-lg-1">
+                        <h3>Vitao</h3>
+                        <p>Healthy food products, most of them designed for the health of the entire family. Grains, granoles, chocolates, sweets and desserts, with a huge variety of sugar free, zero lactose or gluten free. <a href="#vitao" data-bs-toggle="modal" data-bs-target="#vitao">Saiba mais →</a> </p>
+                        <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                    </div>
+                    <div class="img col-12 col-lg-5" >
+                        <img class="img-fluid" src="/img/vitao-home.png" alt="Vitao" >
+                    </div>
+                    <div class="col-lg-1 order-3 d-none d-lg-block"></div>
+                </div>
+                <div class="img-text">
+                    <div class="text col-12 col-lg-5 offset-lg-1">
+                        <h3>Britivic</h3>
+                        <p>Ready-to-drink non alcoholic beverages. The finest selection of Brazilian fruits in juices, teas, dairy, coconut water and so on. <a href="#britivic" data-bs-toggle="modal" data-bs-target="#britivic">Saiba mais →</a> </p>
+                        <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                    </div>
+                    <div class="img col-12 col-lg-5 offset-lg-1">
+                        <img class="img-fluid" src="/img/britvic-home.png" alt="Britivic" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid sobre-nos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-md-1" id="aboutUs">
+                        <h2>About Us</h2>
+                        <p>WE ARE a Brazilian company, based in the heart of the city of Rio de Janeiro, close to the port area.</p>
+                        <p class="text-small">It was created with the purpose of promoting the access of high quality Brazilian food products to the international market. One of its main characteristics is the attention to products developed by micro and small companies, the so-called MSEs. We are committed to our international customers to offer high quality products, which respect the best environmental, administrative and social practices.</p>
+                    </div> 
+                    <div class="col-12 col-md-5 offset-md-1">
+                        <ul>
+                            <li>
+                                <i class="far fa-check-circle"></i>
+                                <p>Super <span class="d-block">Efficient</span></p>
+                            </li>
+                            <li>
+                                <i class="far fa-check-circle"></i>
+                                <p>Deeply <span class="d-block">Commited</span></p>
+                            </li>
+                            <li>
+                                <i class="far fa-check-circle"></i>
+                                <p>Highly <span class="d-block">Skilled</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container container-form">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center" id="contact">
+                    <h2>Let's work together on your next import project.</h2>
+                    <form class="col-12 col-md-10 offset-md-1" action="email.php" name="form_contato" method="post"> 
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required>
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email:</label>
+                          <input type="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required rows="6"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <?php get_footer(); ?>
