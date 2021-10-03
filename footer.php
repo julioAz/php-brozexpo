@@ -52,10 +52,10 @@
             <div class="modal-content container p-0">
                 <div class="modal-header">
                     <a class="navbar-brand" href="/">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
-                    <img class="img-logo" src="https://via.placeholder.com/356x47" alt="Café Aurea">
+                        <img class="img-logo" src="/img/AUREA-logo.png" alt="Café Aurea">
                     <div class="row">
                         <div class="col-12 col-lg-8 offset-lg-1">
                             <h2>High quality Brazilian food products.</h2>
@@ -70,7 +70,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="https://brzexpo.com.br/wp-content/uploads/2021/10/products.pdf">Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -83,10 +83,10 @@
             <div class="modal-content container p-0">
                 <div class="modal-header">
                     <a class="navbar-brand" href="/">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
-                    <img class="img-logo" src="https://via.placeholder.com/356x47" alt="Café Aurea">
+                    <img class="img-logo" src="/img/VITAO-logo.png" alt="Vitao" height="110">
                     <div class="row">
                         <div class="col-12 col-lg-8 offset-lg-1">
                             <h2>High quality Brazilian food products.</h2>
@@ -114,10 +114,10 @@
             <div class="modal-content container p-0">
                 <div class="modal-header">
                     <a class="navbar-brand" href="/">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
-                    <img class="img-logo" src="https://via.placeholder.com/356x47" alt="Café Aurea">
+                    <img class="img-logo" src="/img/BRITVIC-logo.png" alt="Britivic">
                     <div class="row">
                         <div class="col-12 col-lg-8 offset-lg-1">
                             <h2>High quality Brazilian food products.</h2>
@@ -145,7 +145,7 @@
             <div class="modal-content container p-0">
                 <div class="modal-header">
                     <a class="navbar-brand" href="/">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
                     <div class="col-12 col-md-8 offset-md-2 text-center">
@@ -173,7 +173,7 @@
             <div class="modal-content container p-0">
                 <div class="modal-header">
                     <a class="navbar-brand" href="/">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
                     <div class="col-12 col-md-8 offset-md-2 text-center">

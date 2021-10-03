@@ -72,7 +72,7 @@ text-decoration: none;
       <div class='modal-content container p-0'>
           <div class='modal-header'>
               <a class='navbar-brand' href='/''>
-                  <img src='/img/logo.png' alt='Logo'>
+                <img src='img/brz-white.png' alt='Logo'>
               </a>
               <div class='col-12 text-center'>
                   <h2>Let's work together on your next import project.</h2>
