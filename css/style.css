@@ -467,6 +467,14 @@ footer li a p {
 }
 
 @media(max-width:576px){
+    .container-destaque {
+        padding-top: 0;
+    }
+
+    .container-destaque h1 {
+        font-size: 40px;
+    }
+
     .modal .modal-header h2 {
         font-size: 36px;
     }
