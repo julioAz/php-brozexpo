@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="contatoModal" aria-hidden="true">
+    <div class="modal fade modalContato" id="contatoModal" tabindex="-1" aria-labelledby="contatoModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content container p-0">
                 <div class="modal-header">
@@ -151,6 +151,90 @@
                     <div class="col-12 col-md-8 offset-md-2 text-center">
                         <h2>Let's work together on your next import project.</h2>
                         <form class="col-12 col-md-10 offset-md-1" action="email.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoAurea" tabindex="-1" aria-labelledby="contatoAurea" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-aurea.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoVitao" tabindex="-1" aria-labelledby="contatoVitao" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-vitao.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoBritivic" tabindex="-1" aria-labelledby="contatoBritivic" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-britivic.php" method="post">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name: </label>
                             <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
