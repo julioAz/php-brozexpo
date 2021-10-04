@@ -45,15 +45,6 @@
                 </div>
             </div>
         </div>
-        <div class="credits mk-width-100">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <p class="powered mk-powered">Mixed with <i class="icon heart"></i> by <a href="#" alt="Milkshake Branding &amp; Design" title="Milkshake Branding &amp; Design"><i class="icon milkshake"></i></a></p>
-              </div>
-            </div>  
-          </div>
-        </div>
     </footer>
     
     <div class="modal fade" id="cafeAurea" tabindex="-1" aria-labelledby="cafeAurea" aria-hidden="true">
@@ -64,7 +55,7 @@
                         <img src="img/brz-white.png" alt="Logo">
                     </a>
                     <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
-                        <img class="img-logo" src="/img/AUREA-logo.png" alt="Café Aurea">
+                    <img class="img-logo" src="/img/AUREA-logo.png" alt="Café Aurea">
                     <div class="row">
                         <div class="col-12 col-lg-8 offset-lg-1">
                             <h2>High quality Brazilian food products.</h2>
@@ -79,7 +70,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="https://brzexpo.com.br/wp-content/uploads/2021/10/products.pdf">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoAurea" data-bs-toggle="modal" data-bs-target="#contatoAurea" >Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +101,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoVitao" data-bs-toggle="modal" data-bs-target="#contatoVitao">Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +132,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoBritivic" data-bs-toggle="modal" data-bs-target="#contatoBritivic">Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +140,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="contatoModal" aria-hidden="true">
+    <div class="modal fade modalContato" id="contatoModal" tabindex="-1" aria-labelledby="contatoModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content container p-0">
                 <div class="modal-header">
@@ -160,6 +151,90 @@
                     <div class="col-12 col-md-8 offset-md-2 text-center">
                         <h2>Let's work together on your next import project.</h2>
                         <form class="col-12 col-md-10 offset-md-1" action="email.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoAurea" tabindex="-1" aria-labelledby="contatoAurea" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/brz-white.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-aurea.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoVitao" tabindex="-1" aria-labelledby="contatoVitao" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/brz-white.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-vitao.php" method="post">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name: </label>
+                            <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" for="email" name="email" class="form-control" placeholder="Your email ..." id="exampleInputEmail1" aria-describedby="emailHelp" required=""></div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                            <textarea class="form-control" for="message" name="msg" id="exampleFormControlTextarea1" placeholder="Please add your message here..." required="" rows="6"></textarea></div>
+                            <button type="submit" class="btn btn-primary w-100 btn-brz">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalContato" id="contatoBritivic" tabindex="-1" aria-labelledby="contatoBritivic" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content container p-0">
+                <div class="modal-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="img/brz-white.png" alt="Logo">
+                    </a>
+                    <button type="button" class="btn-exit" data-bs-dismiss="modal">X</button>
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h2>Let's work together on your next import project.</h2>
+                        <form class="col-12 col-md-10 offset-md-1" action="email-britivic.php" method="post">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name: </label>
                             <input type="text" class="form-control" name="nome" for="nome" placeholder="Your Name ..." id="name" aria-describedby="nameHelp" required=""></div>
