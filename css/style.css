@@ -417,6 +417,35 @@ footer li a p {
         display: block;
     }
 
+    .img-text:last-child {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .img-text .text h3 {
+        padding-bottom: 600px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 600px;
+    }
+
+    .img-text .img {
+        margin-top: -795px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -775px;
+    }
+
+    .img-text.inverted {
+        margin-top: 200px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -795px;
+    }
+
     .img-text .text {
         text-align: center;
     }
@@ -451,6 +480,26 @@ footer li a p {
 }
 
 @media(max-width:768px){
+    .img-text:last-child .text h3 {
+        padding-bottom: 530px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -710px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 560px;
+    }
+
+    .img-text.inverted .text {
+        margin-top: 50px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -750px;
+    }
+
     .sobre-nos ul li {
         margin-right: 5px;
     }
@@ -466,6 +515,36 @@ footer li a p {
 }
 
 @media(max-width:576px){
+    .img-text .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text .img {
+        margin-top: -655px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -630px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 450px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -620px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 410px;
+    }
+
+
     .modal .modal-header h2 {
         font-size: 36px;
     }
@@ -477,5 +556,36 @@ footer li a p {
 
     .modal#contatoModalSucesso .modal-header .sucess-form {
         margin: 0;
+    }
+}
+
+@media(max-width:430px){
+    .img-text .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text .img {
+        margin-top: -655px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -630px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 450px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -620px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 410px;
     }
 }

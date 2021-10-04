@@ -70,7 +70,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoAurea" data-bs-toggle="modal" data-bs-target="#contatoAurea" >Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoVitao" data-bs-toggle="modal" data-bs-target="#contatoVitao">Download catalogue</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                             <p>Vestibulum ex nisi, pharetra sollicitudin fringilla non, dignissim eu diam. Cras fermentum tortor est, sit amet finibus justo accumsan sit amet. Vestibulum et neque sed purus sagittis accumsan eu at tellus. Cras at pharetra nibh.  </p>
                             <p>Morbi at enim volutpat, volutpat est quis, ultrices quam. Vivamus tristique massa at est maximus fringilla non ut elit. Curabitur rhoncus nec sem et finibus. Vivamus libero magna, lobortis sit amet consequat et, viverra at nibh. Donec ex lectus, molestie ac felis vitae, dictum faucibus odio.</p>
                             <p>Nunc rutrum, metus vel euismod varius, tellus purus bibendum ante, in blandit orci dolor in lorem. Pellentesque laoreet, dolor nec dictum tincidunt, turpis nunc ultrices magna, vitae molestie augue mauris a libero. Donec nibh ipsum, aliquam vitae aliquam nec, ultrices at velit. </p>
-                            <a class="btn btn-primary btn-brz" href="#">Download catalogue</a>
+                            <a class="btn btn-primary btn-brz" href="#contatoBritivic" data-bs-toggle="modal" data-bs-target="#contatoBritivic">Download catalogue</a>
                         </div>
                     </div>
                 </div>
