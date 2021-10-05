@@ -3,7 +3,7 @@ Theme Name: MilkShakeTeam Theme
 Theme URI: 
 Description: A theme made for Broz Expo
 Version: 1.0
-Author: Julio Azevedo
+Author: Milkshake Team
 Author URI: 
 */
 
@@ -20,13 +20,20 @@ header {
     position: relative;
     min-height: 110px;
     background-color: #F8F6F6;
+    z-index: 3;
 }
 
 header.header-fixed {
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: #fff;   
     width: 100%;
+    transform: translate(0,-200px);
+}
+
+header.inView {
+    transform: translate(0,0);
+    transition: all .3s ease-in-out;
 }
 
 nav .navbar-collapse {
@@ -50,11 +57,17 @@ nav .nav-link:hover {
 }
 
 .container-destaque {
-    background: url('/img/BRZ-expo-BANNER-HERO.png') no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 780px;
+    background: #F8F6F6;
     padding-top: 50px;
+}
+
+.container-destaque .row:first-child {
+    z-index: 2;
+    position: relative;
+}
+
+.container-destaque .row:last-child {
+    z-index: 1;
 }
 
 .container-destaque h1 {
@@ -71,6 +84,10 @@ nav .nav-link:hover {
     color: #6d6d6d;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.container-destaque img {
+    margin-top: -200px;
 }
 
 a.btn-brz,
@@ -200,7 +217,7 @@ button.btn-brz:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 .sobre-nos ul li i {
@@ -289,7 +306,7 @@ footer li a p {
 }
 
 .container-copyright{
-    background-color: #193C46;
+    background: url('/img/color-line.png') no-repeat, #193C46;
 }
 
 .container-copyright p {
@@ -401,7 +418,42 @@ footer li a p {
     margin-bottom: 18px;
 }
 
+.credits {
+    padding: 3px 0;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: -1px -3px 5px -3px #000 3;
+    box-shadow: -1px -3px 5px -3px #000 3;
+}
+.credits .powered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 12px;
+}
+
+.icon.heart {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    background: url(/img/mk-icon-heart.svg) no-repeat 0 0;
+}
+.icon.milkshake {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 6px;
+    background: url(/img/mk-icon.svg) no-repeat 0 0;
+    background-size: contain;
+}
+
+
 @media(max-width:1200px){
+    .container-destaque img {
+        margin-top: -200px;
+    }
+
     .img-text.inverted .text {
         padding-right: 60px;
     }
@@ -413,8 +465,41 @@ footer li a p {
 }
 
 @media(max-width:992px){
+    .container-destaque img {
+        margin-top: -160px;
+    }
+
     .img-text {
         display: block;
+    }
+
+    .img-text:last-child {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .img-text .text h3 {
+        padding-bottom: 600px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 600px;
+    }
+
+    .img-text .img {
+        margin-top: -795px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -775px;
+    }
+
+    .img-text.inverted {
+        margin-top: 200px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -795px;
     }
 
     .img-text .text {
@@ -451,8 +536,36 @@ footer li a p {
 }
 
 @media(max-width:768px){
-    .sobre-nos ul li {
-        margin-right: 5px;
+    .container-destaque img {
+        margin-top: -115px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 530px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -710px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 560px;
+    }
+
+    .img-text.inverted .text {
+        margin-top: 50px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -750px;
+    }
+
+    .sobre-nos ul li:last-child {
+        margin-right: 0;
+    }
+
+    .sobre-nos ul li p {
+        font-size: 18px;
     }
     
     footer ul {
@@ -466,6 +579,40 @@ footer li a p {
 }
 
 @media(max-width:576px){
+    .container-destaque img {
+        margin-top: -50px;
+    }
+
+    .img-text .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text .img {
+        margin-top: -655px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 430px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -630px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 450px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -620px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 410px;
+    }
+
+
     .modal .modal-header h2 {
         font-size: 36px;
     }
@@ -477,5 +624,95 @@ footer li a p {
 
     .modal#contatoModalSucesso .modal-header .sucess-form {
         margin: 0;
+    }
+}
+
+@media(max-width:430px){
+    .img-text .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text .img {
+        margin-top: -560px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -540px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -515px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 290px;
+    }
+}
+
+@media(max-width:380px){
+    .img-text .text h3 {
+        padding-bottom: 300px;
+    }
+
+    .img-text .img {
+        margin-top: -570px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text.inverted .img {
+        margin-top: -560px;
+    }
+
+    .img-text:last-child .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -515px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 290px;
+    }
+}
+
+@media(max-width:340px){
+    .img-text .text h3 {
+        padding-bottom: 300px;
+    }
+
+    .img-text .img {
+        margin-top: -580px;
+    }
+
+    .img-text.inverted .text h3 {
+        padding-bottom: 320px;
+    }
+
+    .img-text:last-child .img {
+        margin-top: -515px;
+    }
+
+    .img-text:last-child,
+    .img-text.inverted {
+        margin-top: 240px;
+    }
+
+    .img-text .img img,
+    .img-text.inverted .img img {
+        max-width: 290px;
     }
 }

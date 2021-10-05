@@ -30,5 +30,12 @@ $.headerFixed = function(){
 		}else{
 			$('header').removeClass('header-fixed')
 		}
+
+		if (scroll >= 180) {
+			$('header').addClass('inView')
+		}else{
+			$('header').removeClass('inView')
+		}
 	}
+
 )}
