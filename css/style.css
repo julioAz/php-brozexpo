@@ -20,7 +20,6 @@ header {
     position: relative;
     min-height: 110px;
     background-color: #F8F6F6;
-    opacity: .9;
 }
 
 header.header-fixed {
@@ -290,7 +289,7 @@ footer li a p {
 }
 
 .container-copyright{
-    background: url(/img/color-line.png) no-repeat #193c46;
+    background-color: #193C46;
 }
 
 .container-copyright p {
@@ -339,7 +338,7 @@ footer li a p {
 
 .modal .modal-header .img-logo {
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 130px;
 }
 
@@ -365,7 +364,7 @@ footer li a p {
     margin-top:50px;
 }
 
-.modal#contatoModal .modal-header {
+.modal.modalContato .modal-header {
     background: #193C46;
     height: unset;
     border: none;
@@ -378,7 +377,7 @@ footer li a p {
     padding:100px 15px;
 }
 
-.modal#contatoModal .modal-header h2,
+.modal.modalContato .modal-header h2,
 .modal#contatoModalSucesso .modal-header h2 {
     margin: 100px auto 50px;
     font-size: 36px;
@@ -395,35 +394,6 @@ footer li a p {
     margin-bottom: 100px;
     margin-top: 100px;
 }
-
-.credits {
-    padding: 10px 0;
-    background-color: #f7f7f7;
-    -webkit-box-shadow: -1px -3px 5px -3px #0003;
-    box-shadow: -1px -3px 5px -3px #0003;
-  }
-  .credits .powered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-  .icon.heart {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin: 0 6px;
-    background: url(/img/mk-icon-heart.svg) no-repeat 0 0;
-  }
-  .icon.milkshake {
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    margin: 0 6px;
-    background: url(/img/mk-icon.svg) no-repeat 0 0;
-    background-size: contain;
-  }
-  
 
 .modal#contatoModalSucesso .modal-header .sucess-form i {
     color: #d3e60b;
@@ -473,7 +443,7 @@ footer li a p {
         margin-top: 0;
     }
 
-    .modal#contatoModal .modal-header h2,
+    .modal.modalContato .modal-header h2,
     .modal#contatoModalSucesso .modal-header h2 {
         width: 100%;
         margin-bottom: 30px;
@@ -496,19 +466,11 @@ footer li a p {
 }
 
 @media(max-width:576px){
-    .container-destaque {
-        padding-top: 0;
-    }
-
-    .container-destaque h1 {
-        font-size: 40px;
-    }
-
     .modal .modal-header h2 {
         font-size: 36px;
     }
 
-    .modal#contatoModal .modal-header h2,
+    .modal.modalContato .modal-header h2,
     .modal#contatoModalSucesso .modal-header h2 {
         margin-top: 0;
     }
