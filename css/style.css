@@ -355,7 +355,7 @@ footer li a p {
 
 .modal .modal-header .img-logo {
     position: absolute;
-    top: 200px;
+    top: 175px;
     left: 130px;
 }
 
@@ -615,11 +615,12 @@ footer li a p {
 
     .modal .modal-header h2 {
         font-size: 36px;
+        line-height: 40px;
     }
 
     .modal.modalContato .modal-header h2,
     .modal#contatoModalSucesso .modal-header h2 {
-        margin-top: 0;
+        margin-top: 70px;
     }
 
     .modal#contatoModalSucesso .modal-header .sucess-form {
@@ -673,6 +674,7 @@ footer li a p {
 
     .img-text.inverted .img {
         margin-top: -560px;
+        margin-bottom: 70px;
     }
 
     .img-text:last-child .text h3 {
